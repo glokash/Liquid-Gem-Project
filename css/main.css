@@ -1,0 +1,95 @@
+/* This is the navigation bar */
+nav, ul, li {
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+  margin: 5px;
+  padding: 25px;
+  text-decoration: none;
+  background-color: #fe7e00;
+  color: white;
+  font-family: arial;
+  width: 100%;
+}
+/* This is the oranglejuice logo on the top left of the page */
+.orangeslicelogo {
+  width: 15%;
+  margin-left: 50px;
+}
+/* This is the navigation bar buttons */
+nav ul li a {
+  text-decoration-color: white;
+  text-decoration: none;
+  font-family: "century gothic";
+  letter-spacing: 2px;
+}
+/* This is the middle of the page */
+.middle {
+  background-color: #fafafa;
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+/* This is the orange picture in the middle of the page */
+.middle .orangepic {
+  float: left;
+  margin-top: 30px;
+  padding: 0 40px;
+}
+/* This is most of the text in the middle of the page */
+.middle .textinfo {
+  color: darkorange;
+  font-size: 36px;
+  font-family: "century gothic";
+  letter-spacing: 2px;
+  line-height: 160%;
+}
+/* This is for the orange in orangejuice in the middle of the page */
+.middle .textinfo .bold {
+  font-weight: bold;
+}
+/* This is for the ampersand in the middle of the page */
+.middle .textinfo .amp {
+font-family: "LT Oksana",'Book Antiqua';
+font-style: italic;
+font-weight: normal;
+}
+/* This is for the GET A QUOTE button in the middle of the page */
+.middle .button1 {
+  background-color: darkorange;
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  letter-spacing: 1.5px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* This is for the VIEW CASE STUDIES button in the middle of the page */
+.middle .button2 {
+  background-color: #7accc8;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  letter-spacing: 1.5px;
+  margin: 4px 50px;
+  cursor: pointer;
+}
+/* This is the footer at the bottom of the page */
+footer {
+  color: #7accc8;
+  background-color: #7accc8;
+  display: block;
+  width: 100%;
+  margin-top: 50%;
+  height: 100px;
+  border-style: solid;
+  border-color: #7accc8;
+}
